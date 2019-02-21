@@ -9,4 +9,4 @@ while (number > 10):
 digits+=number
 
 # Output
-print(digits)
+print('Sum of digits: ', digits)

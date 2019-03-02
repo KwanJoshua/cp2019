@@ -12,7 +12,7 @@ def m_series(i):
 
 m_series(num)
 
-# Main Program (table)
+# Test Program (table)
 def m_table(n):
     a = 1
     b = 0

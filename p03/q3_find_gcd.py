@@ -32,3 +32,5 @@ def gcd(m, n):
             b+=1
 
 gcd(num_1, num_2)
+gcd(24, 16)
+gcd(255, 25)

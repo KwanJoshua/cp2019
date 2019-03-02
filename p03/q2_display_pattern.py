@@ -1,7 +1,7 @@
 # Enter Input
 num = int(input('Enter number: '))
 
-# Main
+# Function
 def display_pattern(n):
     pattern = []
     for i in range (1, n+1):

@@ -1,7 +1,7 @@
 # Enter Input
 num = int(input('Enter number: '))
 
-# Main
+# Function
 i = 0
 def reverse_int(n):
     reverse = 0

@@ -2,7 +2,7 @@
 num_1 = int(input('Enter first number: '))
 num_2 = int(input('Enter second number: '))
 
-# Main
+# Function
 def gcd(m, n):
     cd = []
     a = 1
@@ -32,5 +32,7 @@ def gcd(m, n):
             b+=1
 
 gcd(num_1, num_2)
+
+# Test Program
 gcd(24, 16)
 gcd(255, 25)

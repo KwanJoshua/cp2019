@@ -3,12 +3,10 @@ num = int(input('Enter number: '))
 
 # Function
 def sum_series1(i):
-    n = 1
-    total = 0
-    while n <= i:
-        total += (1/n)
-        n += 1
-    print(total)
+    if i > 0:
+        return (1/i) + sum_series1(i-1)
+    else:
+        return 0
 
 # Main
-sum_series1(num)
+print(sum_series1(num))

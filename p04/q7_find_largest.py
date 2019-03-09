@@ -1,5 +1,8 @@
-# List
-alist = [5, 1, 8, 7, 2]
+# Enter list
+length = int(input('Enter length of list: '))
+alist = []
+for i in range (length):
+    alist.append(input('Enter number: '))
 
 # Funtion
 def find_largest(n):
@@ -8,4 +11,3 @@ def find_largest(n):
 
 # Main
 find_largest(alist)
-
